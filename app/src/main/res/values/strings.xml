@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">CapturePacket</string>
+    <string name="inicial_message">Clique Start/Stop para iniciar a captura de pacotes.</string>
+    <string name="start_message">Capturando pacotes...\n Clique quando quiser interromper a captura.</string>
+    <string name="stop_message_log">Pacotes capturados e salvos em /sdcard/tcpdump.log</string>
+    <string name="stop_message_pcap">Pacotes capturados e salvos em /sdcard/tcpdump.pcap</string>
 </resources>
