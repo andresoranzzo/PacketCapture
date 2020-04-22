@@ -35,7 +35,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="8dp"
             android:ems="10"
-            android:hint="Net IP (192.123.2.42)"
+            android:hint="@string/net_ip_hint"
             android:inputType="textPersonName"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/ip_time_capture" />
@@ -48,7 +48,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="8dp"
             android:ems="10"
-            android:hint="Port (80)"
+            android:hint="@string/port_hint"
             android:inputType="textPersonName"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/ip_net_address" />
@@ -66,7 +66,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:onClick="onClick"
-                android:text="Start/Stop"
+                android:text="@string/start_capture"
                 app:layout_constraintBottom_toTopOf="@+id/switch_pcap"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.498"
@@ -80,7 +80,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="20dp"
-                android:text="pcap"
+                android:text="@string/pcap"
                 android:textAlignment="center"
                 tools:layout_editor_absoluteX="170dp"
                 tools:layout_editor_absoluteY="437dp" />
